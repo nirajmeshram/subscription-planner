@@ -1,7 +1,7 @@
 # Clone the repo
 git clone https://github.com/nirajmeshram/subscription-planner.git
 
-cd /subscription-planner
+cd subscription-planner/
 
 # copy env.example 
 cp .env.example .env
