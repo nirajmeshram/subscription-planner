@@ -6,6 +6,10 @@ cd /subscription-planner
 # copy env.example 
 cp .env.example .env
 
+# Generate encrption key
+php artisan key:generate
+
+
 # Edit DB configuration
 DB_CONNECTION=mysql
 
