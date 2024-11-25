@@ -6,6 +6,9 @@ cd subscription-planner/
 # copy env.example 
 cp .env.example .env
 
+# Install project dependencies 
+composer install
+
 # Generate encrption key
 php artisan key:generate
 
@@ -24,8 +27,7 @@ DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
 
 
-# Install project dependencies 
-composer install
+
 
 # Generate database tables
 php artisan migrate
